@@ -267,7 +267,7 @@ body {
     left: 8px;
 }
 @media screen and (max-width:1000px) {
-    @media screen and (min-width:570px) {
+    @media screen and (min-width:170px) {
         .main-text h1{
             font-size:small;
         }
@@ -306,3 +306,144 @@ body {
     font-size: 13px;
     margin-left: 56px;
 }
+
+@media screen and (max-width:1000px) {
+    .main-text-2{    
+     width: 33%;
+    height: 12%;
+    position: absolute;
+    top: 152px;
+    left: 109px;
+    }
+}
+
+.view-all-div{
+    position: absolute;
+    display: flex;
+    top: 26rem;
+    left: 12rem;
+    width: 20rem;
+    height: 4rem;
+}
+.view-all-div h4{
+    color: white;
+    font-size: 14px;
+    font-family: fangsong;
+    position: relative;
+    top: 25px;
+}
+.view-all-div h3{
+    color: white;
+    font-size: 14px;
+    font-family: fangsong;
+    position: relative;
+    top: 9px;
+}
+.view-all-div-2{
+    width: 9rem;
+    height: 2rem;
+    position: relative;
+    left: 26px;
+}
+.i-1{
+    position: relative;
+    top: -20px;
+    color: white;
+    left: 75px;
+}
+.view-all-div-2:hover .view-all-div-2-child{
+    left: 50px;
+}
+
+.view-all-div-2-child{
+    width: 6rem;
+    height: 2rem;
+    position: relative;
+    left: 26px;
+    transition: 1s;
+    top: 16px;
+}
+
+.first-three-card{
+    transition: 0.5s;
+    width: 21rem;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 190px;
+
+}
+.first-three-card:hover{
+    transform: scale(1.1);
+}
+.container-1{
+    display: flex;
+    position: absolute;
+    top: 30rem;
+    left: 10rem;
+    margin-left: 5rem;
+
+}
+@media screen and (max-width:950px) {
+    .container-1{
+        top: 15rem;
+        left: 5rem;
+        margin-left: 5rem;
+    
+    } 
+    .first-three-card{
+        width: 15rem;
+        height: 8rem;
+        margin-top: 18px;
+    }
+    
+}
+
+@media screen and (min-width:916px) {
+    .box {
+        position: relative;
+        top: -12rem;
+        height: 192px;
+        width: 237px;
+        overflow: hidden;
+      }
+}
+.card-img{
+    width: 5rem;
+    height: auto;
+}
+
+/*---------------------------*/
+h1 {
+    margin: 0
+  }
+  .box {
+    position: relative;
+    top: -12rem;
+    height: 192px;
+    width: 335px;
+    overflow: hidden;
+    border-bottom: solid 2px rgb(133, 133, 133);
+  }
+  .hid-box {
+    top: 100%;
+    position: relative;
+    transition: all .3s ease-out;
+    height: 100%;
+  }
+  
+  .box:hover > .hid-box{
+    top: 0;
+  }
+  .hid-box p{
+    color: #d2d2d2;
+    margin-left: 19px;
+    font-size: 12px;
+  }
+  .hid-box h1{
+    color: white;
+    font-size: 22px;
+    margin: 23px;
+  }
+  .box:hover{
+    border-bottom: solid 2px red;
+  }
