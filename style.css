@@ -383,67 +383,95 @@ body {
     margin-left: 5rem;
 
 }
-@media screen and (max-width:950px) {
-    .container-1{
-        top: 15rem;
-        left: 5rem;
-        margin-left: 5rem;
-    
-    } 
+@media screen and (min-width:300px) {
+   @media screen and (max-width:961px) {
     .first-three-card{
-        width: 15rem;
-        height: 8rem;
-        margin-top: 18px;
+        width:20rem;
     }
+    .box{
+        width:30%;
+    }
+    .hid-box h1{
+        margin:-2px;
+    }
+    .hid-box p{
+        margin-left:-2px;
+    }
+   }
+}
+/*---------------------------*/
+.imageContainer{
+
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.imageBoxMargin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  
+}
+.imageBox{
+    transition: .3s;
+    width:370px;
+    height:243px;
+    margin-left: 10px;
+    border-bottom:4px solid  #767474;
+    overflow: hidden;
     
+}
+.imageBox img{
+    height:240px;
+    object-fit: cover;
+}
+.imageBox:hover .card-img{
+    
+}
+.boxText{  
+    transition: all .3s ease-out;
+    margin-top: -17%;
+    letter-spacing: normal;
+    position: relative;
+    transition: all 100s ease-out;
+    color: white;
+    height: 100%;
+}
+.boxText h1{
+    text-align: center;
+    font-size: 24px;
+    width:94%;
+
+}
+.boxText p{
+    text-align: center;
+    margin-left: 10px;
+    width:94%;
+    font-size: 13px;
+}
+.imageBox:hover .boxText{
+    top:-70%;
+}
+.imageBox:hover{
+    border-bottom: 3px solid rgb(228, 43, 43);
+}
+@media screen and (max-width:1172px){
+    
+    .imageBoxMargin{
+        width:100%;
+    }
 }
 
-@media screen and (min-width:916px) {
-    .box {
-        position: relative;
-        top: -12rem;
-        height: 192px;
-        width: 237px;
-        overflow: hidden;
-      }
+.imageBox:hover{
+    transform: scale(1.1);
 }
-.card-img{
-    width: 5rem;
+
+/*----------------------------------------*/
+
+.main-img-3 img{
+    width: 100%;
     height: auto;
 }
-
-/*---------------------------*/
-h1 {
-    margin: 0
-  }
-  .box {
-    position: relative;
-    top: -12rem;
-    height: 192px;
-    width: 335px;
-    overflow: hidden;
-    border-bottom: solid 2px rgb(133, 133, 133);
-  }
-  .hid-box {
-    top: 100%;
-    position: relative;
-    transition: all .3s ease-out;
-    height: 100%;
-  }
-  
-  .box:hover > .hid-box{
-    top: 0;
-  }
-  .hid-box p{
-    color: #d2d2d2;
-    margin-left: 19px;
-    font-size: 12px;
-  }
-  .hid-box h1{
-    color: white;
-    font-size: 22px;
-    margin: 23px;
-  }
-  .box:hover{
-    border-bottom: solid 2px red;
-  }
