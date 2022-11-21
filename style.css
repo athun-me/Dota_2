@@ -14,7 +14,7 @@
 }
 
 @font-face {
-    font-family: semibold;
+    font-family: semibold-2;
     src: url(font/Reaver-SemiBold.ttf);
 }
 
@@ -145,29 +145,32 @@ body {
         transform: translateY(0);
     }
 }
-.margin-left-2{
+
+.margin-left-2 {
     margin-left: 31%;
 }
 
-.btn-language{
+.btn-language {
     color: white;
     font-family: none;
     width: 229px;
     opacity: 60%;
     height: 27px;
     background: transparent;
-    border: none; 
+    border: none;
     font-size: 12px;
-   
+
 }
-.dropdown-L{
+
+.dropdown-L {
     margin-top: -12px;
     width: 181px;
     height: 27px;
     font-size: 12px;
-    
+
 }
-.drop-down-content-L{
+
+.drop-down-content-L {
     display: none;
     border: solid 1px;
     color: white;
@@ -178,31 +181,37 @@ body {
     color: white;
 }
 
-.dropdown-L:hover .drop-down-content-L{
+.dropdown-L:hover .drop-down-content-L {
     display: block;
 }
-.L{
+
+.L {
     width: 100%;
     height: 20px;
 }
-.L:hover{
+
+.L:hover {
     background-color: #a09c9c;
 }
-.L p{
+
+.L p {
     margin-left: 10px;
 }
-.main-div{
+
+.main-div {
     width: 13rem;
     height: 4rem;
 }
-.search-btn-div{
+
+.search-btn-div {
     width: 13rem;
     height: 3rem;
     border: solid 2px white;
     background: transparent;
     border-radius: 8px;
 }
-.search-btn{
+
+.search-btn {
     font-weight: bold;
     background: transparent;
     border: none;
@@ -212,51 +221,86 @@ body {
     position: relative;
     top: 7px;
 }
-.search-btn-div:hover{
+
+.search-btn-div:hover {
     border: solid 2px #ff6444;
 }
-.steamologo{
+.play-free{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 21rem;
+}
+.play-free img{
+    position: relative;
+    right: 132px;
+}
+.play-free button{
+    position: relative;
+    left: 103px;
+    width: 16%;
+    height: 54px;
+    background: transparent;
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    font-size: 19px;
+    font-family: 'semibold-2';
+    text-shadow: 2px 2px black;
+    transition: 1s;
+}
+.play-free button:hover{
+    border-color: #ff6444;
+    margin-left: 10px;
+}
+.steamologo {
     width: 38px;
     height: auto;
     position: relative;
     top: 3px;
     left: 2px;
 }
-.login-btn{
+
+.login-btn {
     position: relative;
     left: -28px;
     top: -5px;
-    font-family: monospace; 
+    font-family: monospace;
     border: none;
     opacity: 60%;
     background: transparent;
     color: white;
     font-weight: bold;
 }
-.login-btn:hover{
+
+.login-btn:hover {
     opacity: 100%;
 }
-.main-text{
+
+.main-text {
     width: 35%;
     height: 21%;
     position: absolute;
     top: 5rem;
-    left: 9rem;
-    
+    left: 2rem;
+
 }
-.main-text h1{
+
+.main-text h1 {
     font-size: 377%;
     font-weight: bold;
     font-family: emoji;
     color: white;
 }
-.main-text h3{
+
+.main-text h3 {
     font-size: 117%;
     opacity: 70%;
     font-family: inherit;
     color: white;
 }
-.line-1{
+
+.line-1 {
     background: #ff6444;
     opacity: 60%;
     width: 8rem;
@@ -266,31 +310,35 @@ body {
     top: -12px;
     left: 8px;
 }
+
 @media screen and (max-width:1000px) {
     @media screen and (min-width:170px) {
-        .main-text h1{
-            font-size:small;
+        .main-text h1 {
+            font-size: small;
         }
     }
-    
+
 }
-.main-text-2{
+
+.main-text-2 {
     width: 33%;
     height: 12%;
-   
+
     position: absolute;
     top: 349px;
     left: 154px;
 
 }
-.playfree-btn-2-div{
-    width: 17rem;
+
+.playfree-btn-2-div {
+    width: 270px;
     height: 4rem;
     background: transparent;
     border: solid white;
     border-radius: 6px;
 }
-.playfree-btn-2{
+
+.playfree-btn-2 {
     margin-top: 10px;
     margin-left: 49px;
     background: transparent;
@@ -300,63 +348,80 @@ body {
     font-weight: bold;
 }
 
-.playfree-btn-2-div p{
+.playfree-btn-2-div p {
     color: white;
     margin-top: -9px;
     font-size: 13px;
     margin-left: 56px;
 }
 
-@media screen and (max-width:1000px) {
-    .main-text-2{    
-     width: 33%;
-    height: 12%;
-    position: absolute;
-    top: 152px;
-    left: 109px;
+@media screen and(ma-width:596px) {
+    .playfree-btn-2-div{
+        width: 136%;
     }
 }
 
-.view-all-div{
+@media screen and (max-width:1000px) {
+    .main-text-2 {
+        width: 33%;
+        height: 12%;
+        position: absolute;
+        top: 152px;
+        left: 109px;
+    }
+}
+
+.view-all-div {
     position: absolute;
     display: flex;
     top: 26rem;
-    left: 12rem;
-    width: 20rem;
+    left: 4rem;
+    width: 127px;
     height: 4rem;
 }
-.view-all-div h4{
+
+.play-for-free{
+    width: 100px;
+    height: 100px;
+}
+
+.view-all-div h4 {
     color: white;
     font-size: 14px;
     font-family: fangsong;
     position: relative;
     top: 25px;
 }
-.view-all-div h3{
+
+.view-all-div h3 {
     color: white;
     font-size: 14px;
     font-family: fangsong;
     position: relative;
     top: 9px;
 }
-.view-all-div-2{
-    width: 9rem;
+
+.view-all-div-2 {
+    width: 2rem;
     height: 2rem;
     position: relative;
     left: 26px;
 }
-.i-1{
+
+.i-1 {
     position: relative;
     top: -20px;
     color: white;
     left: 75px;
 }
-.view-all-div-2:hover .view-all-div-2-child{
+
+.view-all-div-2:hover .view-all-div-2-child {
     left: 50px;
+
 }
 
-.view-all-div-2-child{
-    width: 6rem;
+.view-all-div-2-child {
+    width: 100px;
     height: 2rem;
     position: relative;
     left: 26px;
@@ -364,7 +429,7 @@ body {
     top: 16px;
 }
 
-.first-three-card{
+.first-three-card {
     transition: 0.5s;
     width: 21rem;
     margin-left: 10px;
@@ -372,10 +437,12 @@ body {
     height: 190px;
 
 }
-.first-three-card:hover{
+
+.first-three-card:hover {
     transform: scale(1.1);
 }
-.container-1{
+
+.container-1 {
     display: flex;
     position: absolute;
     top: 30rem;
@@ -383,55 +450,63 @@ body {
     margin-left: 5rem;
 
 }
+
 @media screen and (min-width:300px) {
-   @media screen and (max-width:961px) {
-    .first-three-card{
-        width:20rem;
+    @media screen and (max-width:961px) {
+        .first-three-card {
+            width: 20rem;
+        }
+
+        .box {
+            width: 30%;
+        }
+
+        .hid-box h1 {
+            margin: -2px;
+        }
+
+        .hid-box p {
+            margin-left: -2px;
+        }
     }
-    .box{
-        width:30%;
-    }
-    .hid-box h1{
-        margin:-2px;
-    }
-    .hid-box p{
-        margin-left:-2px;
-    }
-   }
 }
+
 /*---------------------------*/
-.imageContainer{
+.imageContainer {
 
     display: flex;
-    position:absolute;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width: 100%;
 }
-.imageBoxMargin{
+
+.imageBoxMargin {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-  
+
 }
-.imageBox{
+
+.imageBox {
     transition: .3s;
-    width:370px;
-    height:243px;
+    width: 370px;
+    height: 243px;
     margin-left: 10px;
-    border-bottom:4px solid  #767474;
+    border-bottom: 4px solid #767474;
     overflow: hidden;
-    
+
 }
-.imageBox img{
-    height:240px;
+
+.imageBox img {
+    height: 240px;
     object-fit: cover;
 }
-.imageBox:hover .card-img{
-    
-}
-.boxText{  
+
+.imageBox:hover .card-img {}
+
+.boxText {
     transition: all .3s ease-out;
     margin-top: -17%;
     letter-spacing: normal;
@@ -440,38 +515,149 @@ body {
     color: white;
     height: 100%;
 }
-.boxText h1{
+
+.boxText h1 {
     text-align: center;
     font-size: 24px;
-    width:94%;
+    width: 94%;
 
 }
-.boxText p{
+
+.boxText p {
     text-align: center;
     margin-left: 10px;
-    width:94%;
+    width: 94%;
     font-size: 13px;
 }
-.imageBox:hover .boxText{
-    top:-70%;
+
+.imageBox:hover .boxText {
+    top: -70%;
 }
-.imageBox:hover{
+
+.imageBox:hover {
     border-bottom: 3px solid rgb(228, 43, 43);
 }
-@media screen and (max-width:1172px){
-    
-    .imageBoxMargin{
-        width:100%;
+
+@media screen and (max-width:1172px) {
+
+    .imageBoxMargin {
+        width: 100%;
     }
 }
 
-.imageBox:hover{
+.imageBox:hover {
     transform: scale(1.1);
 }
 
 /*----------------------------------------*/
 
-.main-img-3 img{
+.main-img-3 img {
     width: 100%;
     height: auto;
+
+}
+
+.content-1 {
+    margin-top: -11%;
+    font-family:semibold-2;
+    margin-left: 15%;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    color: white;
+    text-align: center;
+
+}
+.content-2 {
+    margin-top: 36%;
+    font-family:semibold-2;
+    margin-left: 15%;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    color: white;
+    text-align: center;
+
+}
+
+@media screen and (max-width:1100px) {
+    .content-1 {
+        font-size: 185%;
+        margin-top: 1%;
+    }
+
+    .content-1 p {
+        font-size: 12px;
+    }
+    .content-1{
+        font-size: 2rem;
+    }
+    .content-2 h2{
+        font-size: 2rem;
+    }
+    .content-2 {
+        margin-top: 37%;
+    }
+
+    .content-2 p {
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (min-width:1150px) {
+    .content-1 h1 {
+        font-family: none;
+        font-size: 4rem;
+    }
+    .content-2 h2 {
+        font-family: none;
+        font-size: 4rem;
+    }
+}
+.main-img-3 {}
+
+/*----------------------------------------*/
+.fadeing-text {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 118rem;
+    text-align: center;
+}
+.fadeing-text h2,p{
+    color: white;
+    font-family:semibold-2;
+}
+.whats-new-btn-div {
+    position: absolute;
+    margin-top: 33%;
+    text-align: center;
+    width: 100%;
+    height: 2%;
+
+}
+
+.whats-new-btn-div button {
+    background: transparent;
+    width: 16%;
+    height: 62%;
+    border: solid 3px #545454;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: revert;
+    font-size: 16px;
+}
+
+.whats-new-btn-div button:hover {
+    border: solid 3px #ff6444;
+}
+
+@media screen and (max-width:1100px) {
+    .whats-new-btn-div button {
+        font-size: 7px; 
+    }
+
 }
